@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mortgage Web</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- Animation CDN -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar fixed-top"
+      role="navigation"
+      aria-label="Main navigation"
+    >
+      <div class="container nav-inner">
+        <a href="#" class="navbar-brand" aria-label="MortgageWeb Home"
+          >MortgageWeb</a
+        >
+        <button
+          class="navbar-toggler"
+          id="navbar-toggler"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          aria-controls="navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item">
+              <a href="#features" class="nav-link">Features</a>
+            </li>
+            <li class="nav-item">
+              <a href="#testimonials" class="nav-link">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a href="#why-choose" class="nav-link">Why Choose Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" aria-label="Homepage Banner">
+      <div class="container hero-content">
+        <div class="content text-center" data-aos="fade-up">
+          <h1 class="heading gold-gradient">
+            Find Your Perfect Mortgage Solution
+          </h1>
+          <p class="description">
+            Expert guidance and competitive rates to help you achieve your
+            homeownership dreams
+          </p>
+          <button class="btn-gold" aria-label="Get Started">
+            Get Started <i class="fas fa-arrow-right" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section" aria-label="Our Services">
+      <div class="container">
+        <h2 class="heading gold-gradient" data-aos="fade-up">
+          Our Rock Solid Services
+        </h2>
+        <div class="card-outer">
+          <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+            <i class="fas fa-home fa-3x gold-text" aria-hidden="true"></i>
+            <h3>Home Loans</h3>
+            <p>Find the perfect mortgage solution tailored to your needs</p>
+          </div>
+          <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+            <i class="fas fa-calculator fa-3x gold-text" aria-hidden="true"></i>
+            <h3>Rate Calculator</h3>
+            <p>Calculate your monthly payments and find the best rates</p>
+          </div>
+          <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+            <i class="fas fa-shield-alt fa-3x gold-text" aria-hidden="true"></i>
+            <h3>Secure Process</h3>
+            <p>Your data is protected with bank-level security</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section" aria-label="Client Testimonials">
+      <div class="container">
+        <h2 class="heading gold-gradient" data-aos="fade-up">
+          What Our Clients Say
+        </h2>
+        <div class="card-outer">
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+            <img
+              src="./images/client1.jpg"
+              alt="Tim Johnson"
+              class="testimonial-img"
+            />
+            <h3>Tim Johnson</h3>
+            <p class="testimonial-role">First-time Homebuyer</p>
+            <p>
+              The team made my first home buying experience smooth and
+              stress-free. Highly recommended!
+            </p>
+            <div
+              class="testimonial-rating gold-gradient"
+              aria-label="5 out of 5 stars"
+            >
+              <i class="fas fa-star" aria-hidden="true"></i>
+              <i class="fas fa-star" aria-hidden="true"></i>
+              <i class="fas fa-star" aria-hidden="true"></i>
+              <i class="fas fa-star" aria-hidden="true"></i>
+              <i class="fas fa-star" aria-hidden="true"></i>
+            </div>
+          </div>
+
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="150">
+            <img
+              src="./images/client2.jpg"
+              alt="Client"
+              class="testimonial-img"
+            />
+            <h3>Michael Chen</h3>
+            <p class="testimonial-role">Property Investor</p>
+            <p>
+              "Outstanding service and competitive rates. They helped me secure
+              multiple investment properties."
+            </p>
+            <div class="testimonial-rating gold-gradient">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+            <img
+              src="./images/client3.jpg"
+              alt="Client"
+              class="testimonial-img"
+            />
+            <h3>Emily Rodriguez</h3>
+            <p class="testimonial-role">Homeowner</p>
+            <p>
+              "Their refinancing options saved me thousands. The process was
+              quick and efficient."
+            </p>
+            <div class="testimonial-rating gold-gradient">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <!-- Similar updates for other testimonial cards -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose" class="section" aria-label="Our Advantages">
+      <div class="container">
+        <h2 class="heading gold-gradient" data-aos="fade-up">
+          Why Choose MortgageWeb?
+        </h2>
+        <div class="why-choose-outer">
+          <div class="why-choose-card" data-aos="fade-up" data-aos-delay="100">
+            <h3>
+              <i class="fas fa-check-circle" aria-hidden="true"></i> Expert
+              Guidance
+            </h3>
+            <p>
+              Our experienced team provides personalized advice throughout your
+              journey.
+            </p>
+          </div>
+          <div class="why-choose-card" data-aos="fade-up" data-aos-delay="150">
+            <h3><i class="fas fa-clock"></i> Quick Processing</h3>
+            <p>
+              Fast and efficient mortgage processing with minimal paperwork.
+            </p>
+          </div>
+
+          <div class="why-choose-card" data-aos="fade-up" data-aos-delay="200">
+            <h3><i class="fas fa-percentage"></i> Competitive Rates</h3>
+            <p>Access to the most competitive mortgage rates in the market.</p>
+          </div>
+          <div class="why-choose-card" data-aos="fade-up" data-aos-delay="250">
+            <h3><i class="fas fa-headset"></i> 24/7 Support</h3>
+            <p>Round-the-clock customer support for all your mortgage needs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section" aria-label="Contact Form">
+      <div class="container">
+        <div class="form-wrapper">
+          <div class="contact-form-container" data-aos="fade-up">
+            <h2 class="heading gold-gradient text-center">Contact Us</h2>
+            <form aria-label="Contact form">
+              <div class="form-group">
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  required
+                  class="form-input"
+                  aria-label="Your Name"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  placeholder="Email Address"
+                  required
+                  class="form-input"
+                  aria-label="Email Address"
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  placeholder="Message"
+                  required
+                  rows="4"
+                  class="form-input"
+                  aria-label="Message"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn-gold">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>MortgageWeb</h4>
+            <p>Your trusted partner in home financing</p>
+          </div>
+          <div class="footer-section">
+            <h4>Contact</h4>
+            <p>
+              <i class="fas fa-phone icon" aria-hidden="true"></i>
+              <span>(555) 123-4567</span>
+            </p>
+            <p>
+              <i class="fas fa-envelope icon" aria-hidden="true"></i>
+              <span>contact@mortgageweb.com</span>
+            </p>
+          </div>
+          <div class="footer-section">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+              <a href="#" aria-label="LinkedIn" class="social-link">
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="#" aria-label="Twitter" class="social-link">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="#" aria-label="Facebook" class="social-link">
+                <i class="fab fa-facebook" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
