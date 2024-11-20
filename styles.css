@@ -266,7 +266,7 @@ button#navbar-toggler {
   display: flex;
   align-items: center;
   background: #000;
-justify-content:center;
+justify-content:center; 
 }
 
 .container.hero-content {
