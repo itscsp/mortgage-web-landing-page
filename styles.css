@@ -176,7 +176,7 @@ nav.navbar {
 .container.nav-inner {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0px;
+  padding: 10px 0px;
   align-items: center;
 }
 
@@ -193,6 +193,10 @@ nav.navbar {
 
 .navbar-collapse .navbar-nav {
   flex-direction: row;
+}
+
+a.navbar-brand img {
+  width: 100px;
 }
 
 .navbar-nav li a {
@@ -266,7 +270,7 @@ button#navbar-toggler {
   display: flex;
   align-items: center;
   background: #000;
-justify-content:center; 
+  justify-content: center;
 }
 
 .container.hero-content {
@@ -531,4 +535,84 @@ h2.heading.gold-gradient {
 
 .contact-form-container button {
   width: 100%;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 20px 0;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap; /* Ensures responsiveness */
+  justify-content: space-between;
+  gap: 20px; /* Space between sections */
+}
+
+.footer-section {
+  flex: 1 1 calc(33.333% - 20px); /* Responsive columns */
+  min-width: 250px; /* Minimum width for smaller screens */
+}
+
+.footer-section h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 789px) {
+  .footer a.navbar-brand img {
+    margin: auto;
+  }
+}
+
+.footer-section p,
+.footer-section a {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ccc; /* Subtle text color for readability */
+}
+
+.footer-section a:hover {
+  color: #fff; /* Highlight links on hover */
+  text-decoration: underline;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.social-link {
+  font-size: 20px;
+  color: #ccc; /* Icon color */
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: #fff; /* Highlight icons on hover */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center;
+  }
+
+  .footer-section {
+    flex: 1 1 100%; /* Full width for smaller screens */
+    text-align: center; /* Center text */
+  }
+
+  .social-links {
+    justify-content: center; /* Center social icons */
+  }
 }
